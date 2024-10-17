@@ -1,0 +1,16 @@
+[package]
+name = "richer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pyo3 = { version = "0.18", features = ["extension-module", "auto-initialize"] }
+tabled = { version = "0.16.0"}
+syntect = { version = "5.0", features = ["default"] }
+nu-ansi-term = "0.48"
+regex = "1"
+
+
+[lib]
+name = "richer"
+crate-type = ["cdylib"]
