@@ -1,4 +1,4 @@
-from richer import rprint as print, render_table, highlight
+from luxeprint import rprint as print, render_table, highlight
 
 # Data for the table
 data = [

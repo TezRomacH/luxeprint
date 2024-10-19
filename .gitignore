@@ -1,2 +1,5 @@
 /target
 .venv
+dist
+build
+__pycache__
