@@ -1,6 +1,6 @@
 [package]
 name = "luxeprint"
-version = "0.1.5"
+version = "1.1.0"
 edition = "2021"
 authors = ["Roman Tezikov <tez.romach@gmail.com>"]
 homepage = "https://github.com/TezRomacH/luxeprint"

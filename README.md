@@ -25,6 +25,40 @@ from luxeprint.luxeprint import rprint
 rprint("Hello, [bold magenta]World[/bold magenta]! :vampire:")
 ```
 
+Supported colors:
+
+```
+"black"
+"red"
+"green"
+"yellow"
+"blue"
+"magenta" | "purple"
+"cyan"
+"white"
+"bright_black" | "grey" | "gray"
+"bright_red"
+"bright_green"
+"bright_yellow"
+"bright_blue"
+"bright_magenta" | "bright_purple"
+"bright_cyan"
+"bright_white"
+```
+
+Supported styles:
+
+```
+"bold" | "b"
+"dim" | "dimmed"
+"italic" | "i"
+"underline" | "u"
+"blink"
+"reverse"
+"hidden"
+"strikethrough"
+```
+
 📝 Render and Print Tables
 
 Luxeprint also allows you to render and print tables, complete with ANSI styles:
