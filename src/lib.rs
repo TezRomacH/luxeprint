@@ -411,6 +411,7 @@ fn render_table(data: Vec<Vec<String>>) -> PyResult<String> {
 
 /// A Python module implemented in Rust.
 #[pymodule]
+#[pyo3(name = "luxeprint")]
 fn richer(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(render_table, m)?)?;
     m.add_function(wrap_pyfunction!(highlight, m)?)?;
