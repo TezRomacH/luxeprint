@@ -19,7 +19,7 @@ Here are some examples of how to use luxeprint in your projects.
 You can use the library to print styled text directly from your Python code:
 
 ```python
-from luxeprint import rprint
+from luxeprint.luxeprint import rprint
 
 # Print styled text 🖨️
 rprint("Hello, [bold magenta]World[/bold magenta]! :vampire:")
@@ -30,7 +30,7 @@ rprint("Hello, [bold magenta]World[/bold magenta]! :vampire:")
 Luxeprint also allows you to render and print tables, complete with ANSI styles:
 
 ```python
-from luxeprint import render_table, rprint
+from luxeprint.luxeprint import render_table, rprint
 
 # Data for the table 📊
 data = [
@@ -50,7 +50,7 @@ rprint(table_output)
 Syntax highlighting is also available:
 
 ```python
-from luxeprint import highlight
+from luxeprint.luxeprint import highlight
 
 code = '''
 def greet(name):

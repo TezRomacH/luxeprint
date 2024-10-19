@@ -1,10 +1,10 @@
 [package]
 name = "luxeprint"
-version = "0.1.3"
+version = "0.1.5"
 edition = "2021"
 authors = ["Roman Tezikov <tez.romach@gmail.com>"]
-homepage = 'https://github.com/TezRomacH/luxeprint'
-repository = 'https://github.com/TezRomacH/luxeprint'
+homepage = "https://github.com/TezRomacH/luxeprint"
+repository = "https://github.com/TezRomacH/luxeprint"
 readme = "README.md"
 license = "MIT"
 description = "A Rust-based library for styled printing, tables, and emojis."
